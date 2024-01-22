@@ -36,6 +36,8 @@ public class Solution {
             display(root.right);
         }
     }
+
+    //avg case O(log n) worst case O(n)
     static int closest=Integer.MAX_VALUE;
     static int node=0;
     public int checkClosest(TreeNode root,int val){
